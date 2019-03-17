@@ -1,6 +1,6 @@
 #include <iostream>
 
-int getIntergerFromUser()
+int getValueFromUser()
 {
     int input{0};
 
@@ -11,11 +11,15 @@ int getIntergerFromUser()
     return input;
 }
 
+void printDouble(int x)
+{
+    std::cout << x << " doubleed is : " << 2 * x << '\n';
+}
+
 int main()
 {
     // my first program
-    int num{getIntergerFromUser()};
+    printDouble(getValueFromUser());
 
-    std::cout << num << " doubleed is : " << 2 * num << '\n';
     return 0;
 }
