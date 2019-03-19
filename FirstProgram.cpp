@@ -2,6 +2,8 @@
 
 int add(int x, int y);
 
+int diff(int x, int y);
+
 int getValueFromUser()
 {
     int input{0};
@@ -23,6 +25,8 @@ void printSum(int x, int y)
     std::cout << x << " + " << y << " = " << add(x, y) << '\n';
 }
 
+void printDiff(int x, int y);
+
 int main()
 {
     // my first program
@@ -30,5 +34,12 @@ int main()
 
     printSum(getValueFromUser(), getValueFromUser());
 
+    printDiff(getValueFromUser(), getValueFromUser());
+
     return 0;
+}
+
+void printDiff(int x, int y)
+{
+    std::cout << x << " - " << y << " = " << diff(x, y) << '\n';
 }
