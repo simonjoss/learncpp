@@ -1,8 +1,5 @@
 #include <iostream>
-
-int add(int x, int y);
-
-int diff(int x, int y);
+#include "MyLib.h"
 
 int getValueFromUser()
 {
