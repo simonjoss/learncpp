@@ -24,14 +24,21 @@ void printSum(int x, int y)
 
 void printDiff(int x, int y);
 
+void printSqrtRoot(double x)
+{
+    std::cout << " the sqare root of " << x << " is : " << sqrtRoot(x) << '\n';
+}
+
 int main()
 {
     // my first program
-    printDouble(getValueFromUser());
+    //printDouble(getValueFromUser());
 
-    printSum(getValueFromUser(), getValueFromUser());
+    //printSum(getValueFromUser(), getValueFromUser());
 
-    printDiff(getValueFromUser(), getValueFromUser());
+    //printDiff(getValueFromUser(), getValueFromUser());
+
+    printSqrtRoot(getValueFromUser());
 
     return 0;
 }
