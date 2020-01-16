@@ -32,11 +32,11 @@ void printSqrtRoot(double x)
 int main()
 {
     // my first program
-    //printDouble(getValueFromUser());
+    printDouble(getValueFromUser());
 
-    //printSum(getValueFromUser(), getValueFromUser());
+    printSum(getValueFromUser(), getValueFromUser());
 
-    //printDiff(getValueFromUser(), getValueFromUser());
+    printDiff(getValueFromUser(), getValueFromUser());
 
     printSqrtRoot(getValueFromUser());
 
